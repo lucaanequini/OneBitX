@@ -1,0 +1,382 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+* {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+.header #navItem:hover {
+  color: #b9b9b9;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+
+.logoPc {
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 40px;
+}
+
+#button {
+  padding: 15px 35px;
+  border: 2px solid white;
+}
+
+.table {
+  --bs-table-bg: transparent;
+  --bs-table-color: white;
+}
+
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 12px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+
+@media (max-width: 405px) {
+  .logoPcap {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
+.container00.container01 {
+  background-image: url(../../images/home-imgs/01.jpg);
+}
+.container00.container02 {
+  background-image: url(../../images/home-imgs/03.jpg);
+}
+.container00.container03 {
+  background-image: url(../../images/home-imgs/02.gif);
+}
+.container00.container04 {
+  background-image: url(../../images/home-imgs/04.jpg);
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: 25px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 50px;
+  }
+}
+@media (max-width: 380px) {
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: 40px;
+  }
+}
+.container00.container05 {
+  background-image: url("../../images/falcon9/01.jpg");
+}
+.container00.container06 {
+  background-image: url("../../images/falcon9/02.jpg");
+}
+.container00.carrossel01 {
+  background-image: url("../../images/falcon9/03.jpg");
+}
+.container00.carrossel02 {
+  background-image: url("../../images/falcon9/04.jpg");
+}
+.container00.carrossel03 {
+  background-image: url("../../images/falcon9/05.jpg");
+}
+.container00.carrossel04 {
+  background-image: url("../../images/falcon9/06.jpg");
+}
+.container00.carrossel05 {
+  background-image: url("../../images/falcon9/07.jpg");
+}
+.container00.container07 {
+  background-image: url("../../images/falcon9/08.jpg");
+}
+
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.titleF {
+  font-size: 90px;
+  font-family: "Rubik", sans-serif;
+  font-weight: bold;
+}
+
+.numbers {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.numbers .titleNumber {
+  font-size: 90px;
+}
+.numbers .subTitleNumb {
+  font-size: 20px;
+}
+
+.falcon9Desc {
+  font-size: 22px;
+  width: 640px;
+  line-height: 50px;
+}
+
+.containerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+
+#overviewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+
+.carrosselSlide img {
+  height: 100vh;
+}
+
+.carousselText {
+  background-color: black;
+}
+
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 300px;
+}
+.downloadDesc a {
+  text-decoration: none;
+  color: #555252;
+}
+.downloadDesc a:hover {
+  color: #b9b9b9;
+}
+.downloadDesc button {
+  border: 2px solid white;
+}
+
+@media (max-width: 768px) {
+  .numbers .titleNumber {
+    font-size: 80px;
+  }
+  .numbers .subTitleNumb {
+    font-size: 18px;
+  }
+  .falcon9Desc {
+    width: auto;
+  }
+  #overviewPosition {
+    padding-top: 35%;
+  }
+}
+@media (max-width: 575px) {
+  .numbers {
+    height: 60vh;
+  }
+  #overviewPosition {
+    width: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 375px) {
+  .titleF {
+    font-size: 50px;
+  }
+  .subTitleF {
+    font-size: 15px;
+  }
+  .falcon9Desc {
+    font-size: 18px;
+    line-height: auto;
+  }
+  .downloadDesc {
+    padding-top: 200px;
+  }
+  .downloadDesc button {
+    margin-bottom: 10px;
+  }
+}
+.container00.container09 {
+  background-image: url(../../images/humanFlight/01.jpg);
+}
+.container00.container10 {
+  background-image: url(../../images/humanFlight/02.jpg);
+}
+.container00.container11 {
+  background-image: url(../../images/humanFlight/03.jpg);
+}
+.container00.container12 {
+  background-image: url(../../images/humanFlight/04.jpg);
+}
+.container00.container13 {
+  background-image: url(../../images/humanFlight/05.jpg);
+}
+
+.mainText {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.mainText h1 {
+  font-size: 120px;
+}
+.mainText p {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+
+.eartDesc {
+  background-color: black;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  font-size: 20px;
+}
+.eartDesc p {
+  width: 800px;
+}
+
+a {
+  font-weight: bold;
+  color: #555252;
+}
+a:hover {
+  color: #b9b9b9;
+}
+
+.imgLeft {
+  padding-left: 50%;
+  padding-top: 15%;
+}
+
+.imgRight {
+  margin-left: 4%;
+  padding-top: 15%;
+}
+
+.lightText {
+  font-weight: lighter;
+}
+
+.titleSection {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .mainText h1 {
+    font-size: 90px;
+  }
+  .mainText p {
+    font-size: 30px;
+  }
+  .titleSection {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .imgLeft {
+    padding-left: 44%;
+  }
+}
+@media (max-width: 576px) {
+  .mainText h1 {
+    font-size: 60px;
+  }
+  .mainText p {
+    font-size: 20px;
+  }
+  .arrowDown {
+    display: none;
+  }
+  .eartDesc p {
+    width: auto;
+    font-size: 15px;
+  }
+  .titleSection {
+    font-size: 40px;
+  }
+  .imgLeft {
+    padding-left: 52%;
+  }
+}
+@media (max-width: 385px) {
+  .mainText h1 {
+    font-size: 50px;
+  }
+  .eartDesc {
+    height: 30vh;
+    font-size: 15px;
+  }
+  .titleSection {
+    font-size: 25px;
+  }
+  .imgLeft {
+    padding-left: 45%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

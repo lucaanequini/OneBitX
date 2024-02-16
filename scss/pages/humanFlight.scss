@@ -1,0 +1,157 @@
+.container00 {
+    &.container09 {
+        background-image: url(../../images/humanFlight/01.jpg);
+    }
+
+    &.container10 {
+        background-image: url(../../images/humanFlight/02.jpg);
+    }
+
+    &.container11 {
+        background-image: url(../../images/humanFlight/03.jpg);
+    }
+
+    &.container12 {
+        background-image: url(../../images/humanFlight/04.jpg);
+    }
+
+    &.container13 {
+        background-image: url(../../images/humanFlight/05.jpg);
+    }
+}
+
+.mainText {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        font-size: 120px;
+    }
+
+    p {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        font-size: 30px;
+    }
+}
+
+.eartDesc {
+    background-color: black;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 20px;
+
+    p {
+        width: 800px;
+    }
+}
+
+a {
+    font-weight: bold;
+    color: $copy-color;
+
+    &:hover {
+        color: $link-hover;
+    }
+}
+
+
+.imgLeft {
+    padding-left: 50%;
+    padding-top: 15%;
+}
+
+.imgRight {
+    margin-left: 4%;
+    padding-top: 15%;
+}
+
+.lightText {
+    font-weight: lighter;
+}
+
+.titleSection {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .mainText {
+        h1 {
+            font-size: 90px;
+        }
+
+        p {
+            font-size: 30px;
+        }
+    }
+
+    .titleSection {
+        font-size: 50px;
+        font-weight: bold;
+    }
+
+    .imgLeft {
+        padding-left: 44%;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .mainText {
+        h1 {
+            font-size: 60px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .arrowDown {
+        display: none;
+    }
+
+    .eartDesc {
+        p {
+            width: auto;
+            font-size: 15px;
+        }
+    }
+
+    .titleSection {
+        font-size: 40px;
+    }
+
+    .imgLeft {
+        padding-left: 52%;
+    }
+}
+
+@media (max-width: 385px) {
+    .mainText {
+        h1 {
+            font-size: 50px;
+        }
+    }
+
+    .eartDesc {
+        height: 30vh;
+        font-size: 15px;
+    }
+
+    .titleSection {
+        font-size: 25px;
+    }
+
+    .imgLeft {
+        padding-left: 45%;
+    }
+}
